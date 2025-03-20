@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nectar Drink's - Drinks Premium & Naturais</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Nectar Drinks</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="search-container">
+                <input class="search-input" type="text" placeholder="Buscar...">
+                <button class="search-btn">
+                    <i class="fa fa-search"></i> <!-- Ícone de pesquisa -->
+                </button>
+            </div>
+            
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <video autoplay loop muted playsinline class="hero-video">
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-serving-a-drink-in-a-glass-with-ice-45134-large.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1 class="typewriter">Explore o equilíbrio perfeito entre frescor e sofisticação</h1>
+            <a href="#produtos" class="cta-button">Explore nossos drinks</a>
+        </div>
+    </section>
+
+    <section id="produtos" class="products">
+        <h2>Nossos Drinks Premium</h2>
+        <div class="products-grid">
+            <!-- Golden Honey Martini -->
+            <div class="product-card" data-name="Golden Honey Martini">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://honey.com/images/default/_thumbnail/golden-honey-margarita.jpg" alt="Golden Honey Martini">
+                        <h3>Golden Honey Martini</h3>
+                        <p>R$ 40,00</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Ingredientes</h3>
+                        <ul>
+                            <li>Vodka</li>
+                            <li>Licor de Menta</li>
+                            <li>Suco de Limão</li>
+                            <li>Xarope de Mel</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Honey Strawberry Smash -->
+            <div class="product-card" data-name="Honey Strawberry Smash">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://i0.wp.com/www.foulmouthgourmet.com/wp-content/uploads/2022/06/IMG_6836.jpg?resize=683%2C1024&ssl=1" alt="Honey Strawberry Smash">
+                        <h3>Honey Strawberry Smash</h3>
+                        <p>R$ 38,00</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Ingredientes</h3>
+                        <ul>
+                            <li>Morango Fresco</li>
+                            <li>Limão</li>
+                            <li>Água com gás</li>
+                            <li>Mel</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Peach Honey Bellini -->
+            <div class="product-card" data-name="Peach Honey Bellini">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://dropinblog.net/34240221/files/featured/non-alcoholic-peach-bellini.jpg" alt="Peach Honey Bellini">
+                        <h3>Peach Honey Bellini</h3>
+                        <p>R$ 42,00</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Ingredientes</h3>
+                        <ul>
+                            <li>Pedaços de Pêssegos</li>
+                            <li>Calda de Pêssego</li>
+                            <li>Mel</li>
+                            <li>Espumante</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Honey Beer Margarita -->
+            <div class="product-card" data-name="Honey Beer Margarita">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://www.chelseadishes.com/wp-content/uploads/2023/01/ginger-beer-mocktail-featured.jpg" alt="Honey Beer Margarita">
+                        <h3>Honey Beer Margarita</h3>
+                        <p>R$ 35,00</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Ingredientes</h3>
+                        <ul>
+                            <li>Tequila</li>
+                            <li>Suco de Limão</li>
+                            <li>Mel</li>
+                            <li>Cerveja</li>
+                            <li>Gelo</li>
+                            <li>Sal na borda do copo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Por que nos escolher -->
+    <section class="why-us">
+        <h2>Por Que Escolher a Nectar Drinks?</h2>
+        <div class="features">
+            <div class="feature-card">
+                <div class="icon"><i class="fas fa-leaf"></i></div>
+                <h3>Ingredientes Naturais</h3>
+                <p>Selecionamos os melhores ingredientes frescos para nossos drinks.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon"><i class="fas fa-cocktail"></i></div>
+                <h3>Drinks Artesanais</h3>
+                <p>Cada drink é preparado com dedicação e expertise.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon"><i class="fas fa-star"></i></div>
+                <h3>Qualidade Premium</h3>
+                <p>Compromisso com a excelência em cada detalhe.</p>
+            </div>
+        </div>
+    </section>
+
+   <!-- Depoimentos -->
+<section class="testimonials">
+    <h2>O que nossos clientes dizem</h2>
+    <div class="testimonials-carousel">
+        <div class="testimonial">
+            <div class="author-info">
+                <!-- Foto fictícia de Maria Silva -->
+                <div class="author-photo" style="background-image: url('https://images.pexels.com/photos/31189515/pexels-photo-31189515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');"></div>
+                <span class="author">Maria Silva</span>
+            </div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"Os melhores drinks que já experimentei! A apresentação é impecável e o sabor é incomparável."</p>
+        </div>
+        <div class="testimonial">
+            <div class="author-info">
+                <!-- Foto fictícia de João Santos -->
+                <div class="author-photo" style="background-image: url('https://images.pexels.com/photos/31150358/pexels-photo-31150358/free-photo-of-homem-sorridente-ao-ar-livre-em-luz-natural-suave.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');"></div>
+                <span class="author">João Santos</span>
+            </div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"Ambiente sofisticado e drinks excepcionais. O Gin Tônica Especial é simplesmente perfeito!"</p>
+        </div>
+        <div class="testimonial">
+            <div class="author-info">
+                <!-- Foto fictícia de Ana Oliveira -->
+                <div class="author-photo" style="background-image: url('https://images.pexels.com/photos/31171848/pexels-photo-31171848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');"></div>
+                <span class="author">Ana Oliveira</span>
+            </div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"Atendimento impecável e drinks preparados com muito cuidado. Recomendo fortemente!"</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Promoções -->
+<section class="promotions">
+    <div class="promo-card">
+        <h2>Oferta Especial</h2>
+        <p>2 drinks pelo preço de 1!</p>
+        <div class="countdown">
+            <span id="hours">24</span>h
+            <span id="minutes">00</span>m
+            <span id="seconds">00</span>s
+        </div>
+        <!-- Botão Aproveitar Agora abaixo -->
+        <div>
+            <a href="https://api.whatsapp.com/message/OJMZ4BU7WH2NC1?autoload=1&app_absent=0" target="_blank">
+                <button class="cta-button">Aproveitar Agora</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Referência ao arquivo counter.js -->
+<script src="counter.js"></script>
+
+
+
+
+
+<section id="sobre-nos" class="about">
+    <h2>Sobre a Nectar Drinks</h2>
+    <div class="about-content">
+        <p>
+            É com grande entusiasmo que apresentamos a <strong>Nectar Drinks - A Bebida dos Deuses</strong>, 
+            uma empresa comprometida em oferecer experiências únicas e memoráveis por meio de uma ampla variedade de bebidas 
+            alcoólicas e não alcoólicas. Combinando qualidade, inovação e um profundo respeito pelos nossos consumidores, 
+            a Nectar Drinks se destaca como uma referência no mercado.
+        </p>
+        <p>
+            Nossa missão é criar produtos que sejam verdadeiros néctares, capazes de transformar simples momentos em celebrações inesquecíveis. 
+            Cada bebida é desenvolvida com <strong>ingredientes cuidadosamente selecionados</strong>, respeitando altos padrões de qualidade e buscando 
+            sempre surpreender paladares.
+        </p>
+        <p>
+            Na Nectar Drinks, valorizamos a <strong>sustentabilidade</strong> e a <strong>responsabilidade social</strong>. 
+            Por isso, nossas práticas de produção são orientadas para reduzir impactos ambientais, enquanto nossas iniciativas 
+            contribuem para o desenvolvimento das comunidades em que atuamos.
+        </p>
+        <p>
+            Estamos confiantes de que nossas bebidas são mais do que produtos—são experiências que <strong>aproximam pessoas e despertam sensações</strong>. 
+            A Nectar Drinks é o <strong>sabor que conecta</strong>, a escolha que inspira.
+        </p>
+        <p>
+            Gostaríamos de convidá-lo(a) a conhecer mais sobre nossa empresa, nossos produtos e as oportunidades que podemos criar juntos. 
+            Estamos à disposição para uma conversa ou uma degustação de nossos produtos, caso tenha interesse.
+        </p>
+        <p class="signature">
+            Com entusiasmo, <br>
+            <strong>Sr. Haver</strong> <br>
+            Administrativo <br>
+            <strong>Nectar Drinks - A Bebida dos Deuses</strong>
+        </p>
+    </div>
+    <div class="about-images">
+        <img src="assets\nectardrinks.jpeg" alt="Equipe Nectar Drinks">
+        <img src="assets/WhatsApp Image 2025-03-18 at 11.13.40.jpeg" alt="logo">
+    </div>
+</section>
+
+
+  <!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <!-- Seção da Nectar Drinks -->
+        <div class="footer-section">
+            <h3>Nectar Drink's</h3>
+            <p>Na Nectar Drink's, acreditamos em oferecer uma experiência premium com nossos drinks naturais, feitos com ingredientes frescos e de alta qualidade. Desde 2020, nossa missão é levar um sabor único e saudável para os seus momentos especiais. Descubra o equilíbrio perfeito entre sabor e bem-estar!</p>
+        </div>
+
+        <!-- Seção de Redes Sociais -->
+        <div class="footer-section">
+            <h3>Redes Sociais</h3>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/nectadosdeuses/profilecard/?igsh=MWFkaDZlMjlyYWQzag==" class="social-icon" title="Instagram - Nectar Drinks">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/message/OJMZ4BU7WH2NC1?src=qr" class="social-icon" title="WhatsApp - Nectar Drinks">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+             
+                
+            </div>
+        </div>
+
+        <!-- Seção de Contato -->
+        <div class="footer-section">
+            <h3>Contato</h3>
+            <p><i class="fas fa-envelope"></i> nectardrinks@outlook.com.br</p>
+            <p><i class="fas fa-phone"></i> (79) 9958-8247</p>
+            <p><i class="fas fa-map-marker-alt"></i> Aracaju-SE</p>
+        </div>
+    </div>
+    
+    <!-- Rodapé -->
+    <div class="footer-bottom">
+        <p>&copy; 2024 Nectar Drink's. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
