@@ -173,17 +173,25 @@ h2::after {
 @media (max-width: 768px) {
     .nav-container {
         flex-direction: column; /* Empilha os itens da navbar em telas menores */
-        align-items: stretch;
+        align-items: center; /* Centraliza os itens */
         gap: 1rem;
     }
 
     .search-container {
-        width: 100%;
-        margin-left: 0; /* Remove o espaçamento lateral em telas menores */
+        width: 90%; /* Reduz a largura da barra para melhor ajuste */
+        max-width: 320px; /* Define um tamanho máximo para não ficar exagerado */
+        margin: 0 auto; /* Centraliza a barra */
+        padding: 0.4rem 0.8rem; /* Ajusta padding para economizar espaço */
+    }
+
+    .search-input {
+        font-size: 0.9rem; /* Diminui o tamanho da fonte para melhor ajuste */
     }
 
     .search-btn {
-        margin-top: 1rem;
+        font-size: 1rem; /* Ajusta o tamanho do botão */
+        padding: 0.4rem 0.6rem; /* Reduz padding do botão */
+        margin-left: 0.5rem; /* Mantém o espaçamento entre input e botão */
     }
 }
 
