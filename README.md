@@ -30,7 +30,7 @@ Este projeto também serviu como um desafio técnico, onde foram aplicadas técn
 bash
 Copiar
 Editar
-git clone https://github.com/seu-usuario/nectar-drinks.git
+git clone https://vitorel-code.github.io/NectarDrinks/
 2️⃣ Abra o arquivo index.html diretamente no navegador ou utilize uma extensão como Live Server para visualizar o projeto.
 
 💡 Futuras Melhorias
